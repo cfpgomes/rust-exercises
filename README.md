@@ -8,10 +8,10 @@ Repository for learning the systems programming language Rust.
 
 >_Initial exercises with the purpose of learning Rust._
    
-**2. Easy Exercises**
+**2. Basic Exercises**
 
 >_Basic and small exercises that use some advanced techniques._
 
-**3. Hard Exercises**
+**3. Advanced Exercises**
 
 >_Advanced exercises that will require the use of several advanced techniques and expertise in data structures._
