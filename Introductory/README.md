@@ -19,3 +19,5 @@
    > Use *[structs](https://doc.rust-lang.org/rust-by-example/custom_types/structs.html)* to represent Dogs and 2D Positions. Each Dog has a name and a position. The program should print the name and position of every dog it contains.
    
    > Use *[enums](https://doc.rust-lang.org/rust-by-example/custom_types/enum.html)* to represent the Dog's current action. Add a new field to the Dog struct created previously and print the name, position and action of every dog.
+
+   > With *[constants](https://doc.rust-lang.org/rust-by-example/custom_types/constants.html)*, create a variable that stores the max number of stored dogs, that can be changed during runtime. Additionally, create a constant that stores the current version of the program (e.g. V1.00).
