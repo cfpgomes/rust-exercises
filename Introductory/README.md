@@ -21,3 +21,11 @@
    > Use *[enums](https://doc.rust-lang.org/rust-by-example/custom_types/enum.html)* to represent the Dog's current action. Add a new field to the Dog struct created previously and print the name, position and action of every dog.
 
    > With *[constants](https://doc.rust-lang.org/rust-by-example/custom_types/constants.html)*, create a variable that stores the max number of stored dogs, that can be changed during runtime. Additionally, create a constant that stores the current version of the program (e.g. V1.00).
+
+4. Create a program that represents a basic Safe Box which stores money, using **[variable bindings](https://doc.rust-lang.org/rust-by-example/variable_bindings.html)**.
+
+   > Using *[mutability](https://doc.rust-lang.org/rust-by-example/variable_bindings/mut.html)*, make the money stored go from zero euros to 1000 euros and finally up to 2 million euros during runtime.
+   
+   > Using *[scope and shadowing](https://doc.rust-lang.org/rust-by-example/variable_bindings/scope.html)*, create a secret Safe Box inside a block with a million euros from the first Safe Box stored, and print its money. Make sure to decrement a million euros from the first Safe Box inside the block.
+   
+   > By *[declaring first](https://doc.rust-lang.org/rust-by-example/variable_bindings/declare.html)* a variable named *secret_safe_box_created*, initialize it inside the previously coded block with the value *true*.
