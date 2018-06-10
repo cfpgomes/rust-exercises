@@ -29,3 +29,13 @@
    > Using *[scope and shadowing](https://doc.rust-lang.org/rust-by-example/variable_bindings/scope.html)*, create a secret Safe Box inside a block with a million euros from the first Safe Box stored, and print its money. Make sure to decrement a million euros from the first Safe Box inside the block.
    
    > By *[declaring first](https://doc.rust-lang.org/rust-by-example/variable_bindings/declare.html)* a variable named *secret_safe_box_created*, initialize it inside the previously coded block with the value *true*.
+   
+5. Create a program and do the following exercises, using **[several mechanisms to change or define the type of primitive and user defined types](https://doc.rust-lang.org/rust-by-example/types.html)**.
+
+   > Use *[casting](https://doc.rust-lang.org/rust-by-example/types/cast.html)* to code a program that converts a floating number to a char. Print *Hello World!* using this method, for each char.
+
+   > Using the same methods, with the help of *[suffixes](https://doc.rust-lang.org/rust-by-example/types/literals.html)*, print *Hello World!*, in which the word *Hello* uses casting from type *u8* and the remaining characters of the string use casting from type *u32* but with values higher than 256.
+   
+   > To understand *[inference](https://doc.rust-lang.org/rust-by-example/types/inference.html)*, create a empty vector and try to push a integer and then a string. See what happens and try to discover why.
+   
+   > Using *[aliasing](https://doc.rust-lang.org/rust-by-example/types/alias.html)*, create a new name for *u64* called *WayBigInteger* and print it with the value 30072017.
