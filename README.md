@@ -4,7 +4,7 @@ Repository for learning the systems programming language Rust.
 ---
 
 ### The exercises are organised with the following order:
-**1. Introductory exercises**
+**1. [Introductory exercises](https://github.com/TofuLynx/rust-exercises/tree/master/Introductory)**
 
 >_Initial exercises with the purpose of learning Rust._
    
