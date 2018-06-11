@@ -18,10 +18,14 @@ fn main() {
              introduction = "Hello",
              exclamation  = "!");
 
-    println!("The binary representation of {0} is {0:b}", 23);
+    
+    println!("The binary representation of {0} is {0:b}", 30072017);
 
-    // This prints a string with exactly 6 characters, with the number on the right.
-    println!("{number:>width$}", number=1, width=6); 
+    // This prints a string with exactly 6 characters, with the number on the right and spaces in the remaining slots.
+    println!("{number:>width$}", number=30072017, width=12);
+
+    // This prints a string with exactly 6 characters, with the number on the right and zeroes in the remaining slots.
+    println!("{number:>0width$}", number=30072017, width=12); 
 
     // This prints to io::stderr
     eprintln!("Error: Something Happened!");
