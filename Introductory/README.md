@@ -39,3 +39,11 @@
    > To understand *[inference](https://doc.rust-lang.org/rust-by-example/types/inference.html)*, create a empty vector and try to push a integer and then a string. See what happens and try to discover why.
    
    > Using *[aliasing](https://doc.rust-lang.org/rust-by-example/types/alias.html)*, create a new name for *u64* called *WayBigInteger* and print it with the value 30072017.
+
+6. Create a program that has a *struct* representing a Square, whose fields are *width*, *height* and *color* (The first two being *i32* and the last being *str*. You are going to use **[conversion between types](https://doc.rust-lang.org/rust-by-example/conversion.html)** for the following exercises:
+
+   > By creating an instance of the *struct*, print the *String* version of the color of the created square, with the help of *[From/Into](https://doc.rust-lang.org/rust-by-example/conversion/from_into.html)*.
+   
+   > Create a *[ToString](https://doc.rust-lang.org/rust-by-example/conversion/string.html)* trait for each field type (*i32* and *str*). Print each field of the previous square using this method.
+   
+   > Before advancing to the next exercise, make sure you fully understood how *From* and *Into* work.
