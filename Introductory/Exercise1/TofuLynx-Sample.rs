@@ -20,6 +20,9 @@ fn main() {
 
     println!("The binary representation of {0} is {0:b}", 23);
 
+    // This prints a string with exactly 6 characters, with the number on the right.
+    println!("{number:>width$}", number=1, width=6); 
+
     // This prints to io::stderr
     eprintln!("Error: Something Happened!");
 }
