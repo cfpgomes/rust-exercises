@@ -47,3 +47,13 @@
    > Create a *[ToString](https://doc.rust-lang.org/rust-by-example/conversion/string.html)* trait for each field type (*i32* and *str*). Print each field of the previous square using this method.
    
    > Before advancing to the next exercise, make sure you fully understood how *From* and *Into* work.
+
+7. Create a program that represents a rectangle. Using **[expressions](https://doc.rust-lang.org/rust-by-example/expression.html)**, do the following steps:
+
+   > To represent the rectangle, create a variable called *rect* and let it be a block with two variables - *width* and *height*. Make sure that the variable prints the rectangle's area when called on a *println!()*.
+   
+   > Then, add an expression at the end of the code. It can be anything, such as *2+2;*.
+   
+   > Finally, bind a variable *hello* to a new block and insert *"hello";* at the end of the block. Then call *hello* in a *println!()*. Check what is the output and try to understand why it happens.
+   
+   > Make sure you know the difference between *expressions* and *statements*.
