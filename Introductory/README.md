@@ -1,5 +1,4 @@
 # Introductory exercises
-
 1. Create a **[Hello World!](https://doc.rust-lang.org/rust-by-example/hello.html)** program.
 
    > Use *[comments](https://doc.rust-lang.org/rust-by-example/hello/comment.html)*.

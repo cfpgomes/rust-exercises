@@ -18,7 +18,7 @@ fn main() {
              introduction = "Hello",
              exclamation  = "!");
 
-    
+    // We use :b to print the binary representation of a number.
     println!("The binary representation of {0} is {0:b}", 30072017);
 
     // This prints a string with exactly 6 characters, with the number on the right and spaces in the remaining slots.
